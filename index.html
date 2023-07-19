@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
+  <title>Cabzzy | Home</title>
+  <link rel="icon" type="image" href="img/favicon1.png" sizes="64x64">
+  <style>
+    body{
+    font-family: "Product Sans";
+    overflow-x: hidden;
+    background-image: url(img/Layer\ 51\ 1.png);
+    }
+
+  .form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.tab-content {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    /* padding: 19px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 50px;
+    box-shadow: -1px 2px 7px #00000061;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 22px;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    /* font-weight: 700; */
+    font-size: 22px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #fafafa;
+}
+.nav-pills .nav-link {
+    background-color: #007bffa1;
+    color: white;
+}
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand ml-3" href="#">
+      <img src="img/CABZZY-7-14-2023.png" width="200" height="55" alt="" data-aos="fade" data-aos-duration="1000">
+    </a>
+  </nav>
+  
+  <section id="hero" class=" align-items-center" style="background-image: url(img/bg-modified.jpg); background-repeat: no-repeat; background-size: cover;padding-bottom: 110px;">
+    <br>
+  
+     <center><img src="img/cab.png"  width="100" height="100" alt="" data-aos="fade" data-aos-duration="1000"></center>
+    <center><h1 style="font-size: 5rem; font-weight: 800; color: #f2cf2d;" data-aos="fade" data-aos-duration="1000">CABZZY</h1></center>
+    
+    <hr style="width: 10%; border-top: 5px solid rgb(240, 240, 240);" data-aos="fade" data-aos-duration="1000">
+    <br>
+    <br>
+    <br>
+  <div class="container mt-5" data-aos="fade" data-aos-duration="1000">
+    <ul class="nav nav-pills d-flex justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" id="pickup-tab" data-toggle="pill" href="#pickup" style="    border-radius: 9px 0px 0px 9px;">One Way</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="destination-tab" data-toggle="pill" href="#destination" style="border-radius: 0px 9px 9px 0px;">Round Trip</a>
+      </li>
+    </ul>
+
+    <div class="tab-content mt-3" style="display: flex; justify-content: center;">
+      <div class="tab-pane fade show active" id="pickup">
+        <form class="form-inline">
+          <select class="form-control mr-2" id="pickupCity">
+            <option selected>Pickup Point</option>
+            <option>New York</option>
+            <option>London</option>
+            <option>Paris</option>
+          </select>
+          <select class="form-control mr-2" id="pickupCity">
+            <option selected>Drop Point</option>
+            <option>New York</option>
+            <option>London</option>
+            <option>Paris</option>
+          </select>
+
+          <input type="date" class="form-control mr-2" id="pickupAddress" placeholder="Enter Address">
+          <input type="time" class="form-control mr-2" id="pickupAddress" placeholder="Enter Address">
+
+
+          <button type="submit" class="btn btn-primary" style="font-size: 22px;">Search</button>
+        </form>
+      </div>
+
+      <div class="tab-pane fade" id="destination">
+        <form class="form-inline">
+          <select class="form-control mr-2" id="pickupCity">
+            <option selected>Pickup Point</option>
+            <option>New York</option>
+            <option>London</option>
+            <option>Paris</option>
+          </select>
+          <select class="form-control mr-2" id="pickupCity">
+            <option selected>Drop Point</option>
+            <option>New York</option>
+            <option>London</option>
+            <option>Paris</option>
+          </select>
+
+          <input type="date" class="form-control mr-2" id="pickupAddress" placeholder="Enter Address">
+          <input type="time" class="form-control mr-2" id="pickupAddress" placeholder="Enter Address">
+
+
+          <button type="submit" class="btn btn-primary" style="font-size: 22px;">Search</button>
+        </form>
+        
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <section style="padding-top: 50px;">
+    <!-- <div class="row d-flex justify-content-center"> -->
+      <h4  style="width: 100%; display: flex; justify-content: center;" data-aos="fade" data-aos-duration="1000"><b>POPULAR ROUTES</b></h4>
+
+</section>
+<br>
+<br>
+  <section>
+  <div class="container">
+    <div class="card-group">
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/peakpx.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO SHIRDI CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/Mumbai.jpg"  alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO MUMBAI CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/kolhapur.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO KOLHAPUR CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/mahabaleshwar.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO MAHABALESHWAR</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- card section 2 -->
+  <section style="padding-top: 50px;">
+    <!-- <div class="row d-flex justify-content-center"> -->
+      <h4  style="width: 100%; display: flex; justify-content: center;" data-aos="fade" data-aos-duration="1000"><b>TOURISTS DESTINATION</b></h4>
+    <!-- </div> -->
+</section>
+<br>
+<br>
+  <section>
+  <div class="container">
+    <div class="card-group">
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/goa.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO GOA CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/pune.jpg"  alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">MUMBAI TO PUNE CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/alibag.png" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO ALIBAAG CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/diveagar.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO DIVEAGAR</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- card section 3 -->
+  <section style="padding-top: 50px; ">
+    <!-- <div class="row d-flex justify-content-center"> -->
+      <h4  style="width: 100%; display: flex; justify-content: center;" data-aos="fade" data-aos-duration="1000"><b>TRIPS FROM MUMBAI</b></h4>
+    <!-- </div> -->
+</section>
+<br>
+<br>
+  <section >
+  <div class="container">
+    <div class="card-group">
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/peakpx.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">MUMBAI TO SHIRDI CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/mahabaleshwar.jpg"  alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">MUMBAI TO MAHABALESHWAR</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/alibag.png" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">PUNE TO ALIBAAG CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+      <div class="card" style="padding: 10px;" data-aos="fade" data-aos-duration="1000">
+        <img class="card-img-top" src="img/kolhapur.jpg" alt="Card image cap" style="border-radius: 20px 0px;">
+        <div class="card-body">
+          <h6 class="card-title">MUMBAI TO KOLHAPUR CAB</h6>
+          <a href="#" class="btn btn-primary d-flex justify-content-center" style="background-color: #12305d;">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <br>
+  <br>
+<!-- about us -->
+<section  style="padding: 20px; background-color: white;">
+  <div class="row">
+    <div class="col-xl-6 col-sm-6 d-flex justify-content-center">
+      <img src="img/2672335.jpg" width="400" height="400"  alt="" data-aos="fade-right" data-aos-duration="1000">
+       <!-- width="400" height="300" -->
+  </div>
+  <div class="col-xl-6 col-sm-6 " style="padding: 54px;">
+    <h3 class="d-flex justify-content-center"><b>About Us</b></h3>
+    <hr style="width: 10%; border-top: 5px solid rgb(47, 46, 46);">
+
+    <br>
+
+    <h5 style="text-align: justify;" data-aos="fade" data-aos-duration="1000">
+      Cabzzy is a reliable and affordable cab service provider in Maharashtra. We offer a variety of services, including local cabs, outstation cabs, one-way pickups and drops, corporate car rentals, employee transportation, event transportation, and hotel travel desk service. We have a fleet of standard quality brand new cars, and our drivers are experienced and knowledgeable. We are dedicated to providing our customers with exceptional, prompt, and customer-friendly travel service at very economical rates.
+
+    </h5>
+  </div>
+
+</section>
+<!-- about us end -->
+<section style="background-image: url(img/10109.png); background-repeat: no-repeat; background-size: cover;">
+    <div class="container py-5">
+      <div class="row mb-4">
+        <div class="col-lg-12">
+          <h3 class="d-flex justify-content-center " data-aos="fade" data-aos-duration="1000"><b>Here are some of the benefits of using Cabzzy</b></h3>
+        </div>
+      </div>
+  
+      <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-6 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4" data-aos="fade-up" data-aos-duration="1000">
+            <h5 class="mb-0">We have a wide network of cabs across Maharashtra, so you can be sure that you will always get a cab when you need it.</h5>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-6 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4" data-aos="fade-up" data-aos-duration="1000">
+            <h5 class="mb-0">Our rates are very competitive, and we offer a variety of discounts for regular customers.</h5>
+            <br>
+          </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-6 col-sm-6 mb-5">
+          <div class="bg-white rounded shadow-sm py-5 px-4" data-aos="fade-up" data-aos-duration="1000">
+            <h5 class="mb-0">Our drivers are experienced and knowledgeable, and they will always go the extra mile to make sure that you have a comfortable and enjoyable journey.</h5>
+       
+        </div>
+        </div>
+        <!-- End-->
+  
+        <!-- Team item-->
+        <div class="col-xl-6 col-sm-6 mb-5">
+          
+            <div class="bg-white rounded shadow-sm py-5 px-4" data-aos="fade-up" data-aos-duration="1000">
+              <h5 class="mb-0">We are committed to providing our customers with exceptional service, and we are always looking for ways to improve our offerings.</h5>
+            </div>
+         
+        </div>
+      </div>
+    </div>
+  <br>
+</section>
+
+<section>
+  <footer style="background-color: rgb(204, 207, 207);">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6" style=" padding: 21px;">
+     <h2  data-aos="fade" data-aos-duration="1000">Lets Get in Touch!</h2>   
+     <h6  data-aos="fade" data-aos-duration="1000">Please feel free to contact us if you need any further information</h6>
+     
+    </div>
+    <div class="col-md-3" style="padding: 21px;">
+      
+     <h4 class="d-flex " style="text-align: center; font-weight: bold; align-items: center"  data-aos="fade" data-aos-duration="1000"><i class="fa fa-phone-square fa-md"></i>&nbsp; Call us</h4>
+     <h5 class="d-flex"  data-aos="fade" data-aos-duration="1000">+91 6203835776</h5>
+   </div>
+   <div class="col-md-3" style=" padding: 21px;">
+    <h4 class="d-flex " style="text-align: center; font-weight: bold; align-items: center"  data-aos="fade" data-aos-duration="1000"><i class="fa fa-envelope fa-md" ></i>&nbsp; Email us</h4>
+     <h5 class="d-flex"  data-aos="fade" data-aos-duration="1000">cabzzy2023@gmail.com</h5>
+        
+
+ </div>
+
+      </div>
+    </div>
+    
+
+  </footer>
+
+</section>
+
+
+<!-- footer -->
+<section class="pb-3" style="padding: 10px; background-image: url(img/footer-bg.jpg);background-repeat: no-repeat; background-size: cover;">
+  <div class="container-fluid mt-5">
+    <!-- <div class="card bg-white mx-5"> -->
+        <div class="row mb-1">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="footer-text pull-left">
+                    <div class="d-flex">
+                        <!-- <h1 class="font-weight-bold mr-2 px-3" style="color:white; background-color:#957bda"> T </h1>
+                        <h1 style="color: #957bda">Devs</h1> -->
+                        <img src="img/CABZZY-7-14-2023.png" width="200" height="55" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2"></div>
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <h5 class="heading"><b>Popular Routes</b></h5>
+                <!-- <ul style="list-style: none;">
+                    <li>IT Consulting</li>
+                    <li>Development</li>
+                    <li>Cloud</li>
+                    <li>Support</li>
+                </ul> -->
+                <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ducimus 
+                </h6>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <h5 class="heading"><b>Contact Us</b></h5>
+                <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ducimus 
+                </h6>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <h5 class="heading"><b>Company</b></h5>
+                <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat ducimus 
+                </h6>
+            </div>
+        </div>
+        <div class="divider mb-4"> </div>
+        <!-- <hr style="width: 10%; border-top: 5px solid rgb(94, 92, 92);"> -->
+      Copyright © 2023 cabzzy Services | Powered by cabzzy Services
+     
+    </div>
+<!-- </div> -->
+</section>
+
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
